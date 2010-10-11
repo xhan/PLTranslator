@@ -22,7 +22,7 @@ extern PLLangCode PLLangEnglish;
 extern PLLangCode PLLangJapanese;
 
 @interface PLTranslator : NSObject {
-
+	
 }
 
 /*
@@ -31,15 +31,15 @@ extern PLLangCode PLLangJapanese;
 + (NSURL*)URLforText:(NSString*)text fromLang:(PLLangCode)fromLang toLang:(PLLangCode)toLang;
 
 
-#define kPLT_DETAILS @"kPLT_DETAILS"
+#define kPLT_ERROR_DETAILS @"kPLT_DETAILS"
 #define kPLT_STATUS @"kPLT_STATUS"
 #define kPLT_TranslatedText @"kPLT_TranslatedText"
 #define kPLT_DetectedSourceLanguage @"kPLT_DetectedSourceLanguage"
 
 /*
  @return a Dictionary contains structure like this:
- kPLT_DETAILS					->		only have contents when error occures
- kPLT_STATUS					->		200->success , 400 -> failed
+ kPLT_ERROR_DETAILS				->		only have contents when error occures
+ kPLT_STATUS					->		200->success , 400 -> failed (nsnumber value)
  kPLT_TranslatedText			->		translated text
  kPLT_DetectedSourceLanguage	->		only have contents when 'from lang' is nil 
  */

@@ -10,14 +10,19 @@ class MainWinController < NSWindowController
   attr_accessor :textFieldPure, :textFieldResult, :popupButtonFrom, :popupButtonTo
   
   def awakeFromNib
-    puts "hello from nib"
-    a = OBJC.new
-    a.print
+    # puts "hello from nib"
+    textFieldPure.setStringValue("Hello China")
   end
   
   
   def onTranslate(sender)
+    puts "origin:#{textFieldPure.stringValue}"
     
+    url = PLTranslator.URLforText(textFieldPure.stringValue, :fromLang => nil, :toLang => "zh-tw")
+    puts "url:#{url}"
+    results = PLHttpClient.syncGet(url)
+    puts "results#{results}"
+    textFieldResult.setStringValue PLTranslator.TranslatedTextFromResponse(results)    
   end
   
 end
