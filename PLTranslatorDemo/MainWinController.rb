@@ -7,11 +7,17 @@
 
 class MainWinController < NSWindowController
   
+  attr_accessor :textFieldPure, :textFieldResult, :popupButtonFrom, :popupButtonTo
+  
   def awakeFromNib
     puts "hello from nib"
     a = OBJC.new
     a.print
   end
   
+  
+  def onTranslate(sender)
+    
+  end
   
 end

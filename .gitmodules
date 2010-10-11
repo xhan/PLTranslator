@@ -1,3 +1,6 @@
 [submodule "PlutoLand"]
 	path = PlutoLand
 	url = git://github.com/xhan/PlutoLand.git
+[submodule "json-framework"]
+	path = json-framework
+	url = http://github.com/stig/json-framework.git
