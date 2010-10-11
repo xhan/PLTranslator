@@ -1,0 +1,10 @@
+ABOUT
+=====
+Objective-c wrapper for Google Translate Service
+
+Inside package there's a demo written by Macruby(0.7)
+
+TODO lists
+==========
+* fix issue that can't load static const variable from Objective-C code
+* add lang-list method => to fetch all the support languages
