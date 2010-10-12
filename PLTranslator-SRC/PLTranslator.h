@@ -21,6 +21,7 @@ extern PLLangCode PLLangChineseTradition;
 extern PLLangCode PLLangEnglish;
 extern PLLangCode PLLangJapanese;
 
+
 @interface PLTranslator : NSObject {
 	
 }

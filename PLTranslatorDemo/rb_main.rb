@@ -3,7 +3,7 @@
 # PLTranslatorDemo
 #
 # Created by xhan on 10-10-11.
-# Copyright Baidu.com 2010. All rights reserved.
+# Copyright ixHan.com 2010. All rights reserved.
 #
 
 # Loading the Cocoa framework. If you need to load more frameworks, you can

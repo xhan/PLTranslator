@@ -39,7 +39,6 @@ PLLangCode PLLangJapanese = @"ja";
 													translatedText,kPLT_TranslatedText,
 													sourceLanguage,kPLT_DetectedSourceLanguage,nil 
 													];
-
 }
 
 + (NSString*)TranslatedTextFromResponse:(NSString*)response{
