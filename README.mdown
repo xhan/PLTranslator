@@ -1,10 +1,17 @@
-ABOUT
-=====
-Objective-c wrapper for Google Translate Service
+###ABOUT
 
-Inside package there's a demo written by Macruby(0.7)
+PLTranslator is an Objective-c wrapper for Google Translate Service.
+The demo is written in Macruby(0.7) framework. Make sure have Macruby installed before *Build* it.
 
-TODO lists
-==========
-* fix issue that can't load static const variable from Objective-C code
-* add lang-list method => to fetch all the support languages
+---------
+###USEAGE
+
+* open demo project
+* copy files inside 'src' and 'dependence(SBJSON)' into your project
+* follow the sample codes inside demo project and make your own
+
+---------
+###TODO lists
+
+* fix issue that can't load static const variable from Objective-C code (macruby issue?)
+* need a better way to manage all the language tags
