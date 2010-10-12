@@ -14,8 +14,10 @@
 
 typedef const NSString* PLLangCode;
 
-// language code :  http://en.wikipedia.org/wiki/IETF_language_tag
+// language tags :  http://en.wikipedia.org/wiki/IETF_language_tag
 
+
+//TODO: complete LangCodes and make a list (similar to -availableLangTags)
 extern PLLangCode PLLangChineseSimplified;
 extern PLLangCode PLLangChineseTradition;
 extern PLLangCode PLLangEnglish;
@@ -23,8 +25,10 @@ extern PLLangCode PLLangJapanese;
 
 
 @interface PLTranslator : NSObject {
-	
+
 }
+
+
 
 /*
  set fromLang to nil will cause service to detect source during translation. 
