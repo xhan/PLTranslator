@@ -1,4 +1,3 @@
-PLTranslatorDemo/*.xcodeproj/*
 PLTranslatorDemo/!*.xcodeproj/project.pbxproj
 PLTranslatorDemo/build
 .DS_Store
