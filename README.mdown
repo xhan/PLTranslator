@@ -6,6 +6,9 @@ The demo is written in Macruby(0.7) framework. Make sure have Macruby installed 
 ---------
 ###USEAGE
 
+* cd source
+* git submodule init
+* git submodule update
 * open demo project
 * copy files inside 'src' and 'dependence(SBJSON)' into your project
 * follow the sample codes inside demo project and make your own
