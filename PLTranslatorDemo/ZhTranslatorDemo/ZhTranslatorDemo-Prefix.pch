@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ZhTranslatorDemo' target in the 'ZhTranslatorDemo' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

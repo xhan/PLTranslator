@@ -64,6 +64,7 @@
 		CABE98B5140BAA460010AAE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABE98B4140BAA460010AAE8 /* Foundation.framework */; };
 		CABE98B8140BAA460010AAE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CABE98B7140BAA460010AAE8 /* main.m */; };
 		CABE98BC140BAA460010AAE8 /* ZhTranslatorDemo.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CABE98BB140BAA460010AAE8 /* ZhTranslatorDemo.1 */; };
+		CABE98C1140BAA530010AAE8 /* PLTranslatorZh.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0DF321140B967700606298 /* PLTranslatorZh.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -130,7 +131,7 @@
 		CABE98B2140BAA460010AAE8 /* ZhTranslatorDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZhTranslatorDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		CABE98B4140BAA460010AAE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CABE98B7140BAA460010AAE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CABE98BA140BAA460010AAE8 /* ZhTranslatorDemo-Prefix.pch */ = {isa = PBXFileReference; path = "ZhTranslatorDemo-Prefix.pch"; sourceTree = "<group>"; };
+		CABE98BA140BAA460010AAE8 /* ZhTranslatorDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZhTranslatorDemo-Prefix.pch"; sourceTree = "<group>"; };
 		CABE98BB140BAA460010AAE8 /* ZhTranslatorDemo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ZhTranslatorDemo.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -475,6 +476,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CABE98B8140BAA460010AAE8 /* main.m in Sources */,
+				CABE98C1140BAA530010AAE8 /* PLTranslatorZh.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

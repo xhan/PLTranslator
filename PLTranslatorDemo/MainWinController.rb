@@ -20,7 +20,7 @@ class MainWinController < NSWindowController
         @zhTranslator = PLTranslatorZh.alloc.init
     end
   
-  
+    # test codes for PLTranslator
     # def onTranslate(sender)
     # 
     #     time = Time.now
@@ -32,6 +32,8 @@ class MainWinController < NSWindowController
     #     puts time
     #     textFieldResult.setStringValue PLTranslator.TranslatedTextFromResponse(results)    
     # end
+    
+    # test codes for PLTranslatorZh
     def onTranslate(sender)
         time = Time.now
         to_lang = popupButtonTo.titleOfSelectedItem

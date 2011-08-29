@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "PLTranslatorZh.h"
 int main (int argc, const char * argv[])
 {
 
@@ -15,6 +15,8 @@ int main (int argc, const char * argv[])
 
     // insert code here...
     NSLog(@"Hello, World!");
+    PLTranslatorZh* zh = [[PLTranslatorZh alloc] initWithMarsSupport:YES];
+    NSLog(@"%@",[zh translateToTraditional:@"简体中国许多东西周杰伦"]);
 
     [pool drain];
     return 0;
